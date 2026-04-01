@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: #C19A6B;
+    font-family: "Patrick Hand", cursive;
+}
+.tipsyHead{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+}
+
+.tipsyLogo{
+    display: flex;
+    width: 14em;
+    height: 9em;
+}
+
+
+.navBar{
+    display: flex;
+    gap: 2em;
+    border: 1px solid;
+    list-style: none;
+    height: 10%;
+    padding: 1em;
+}
+
+.heroCont{
+    display: flex;
+}
+
+.tipsyHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    border: 1px solid;
+    width: 22em;
+    height: 22em;
+    background-image: url(./images/Parchment.png);
+    flex: none;
+}
+
+.heroTitle{
+    font-size: 20px;
+    width: 10em;
+}
+
+.heroText{
+    width: 14em;
+}
+
+.tavernImage{
+    display: flex;
+    height: 25em;
+}
