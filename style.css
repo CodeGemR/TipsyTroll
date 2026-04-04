@@ -38,6 +38,7 @@ body{
 
 .heroCont{
     display: flex;
+    border: 1px solid;
 }
 
 .tipsyHero{
@@ -45,7 +46,6 @@ body{
     flex-direction: column;
     justify-content: center;   
     align-items: center;
-    border: 1px solid;
     width: 22em;
     height: 22em;
     background-image: url(./images/Parchment.png);
@@ -64,4 +64,24 @@ body{
 .tavernImage{
     display: flex;
     height: 25em;
+}
+
+.tipsySpecial{
+    display: flex;
+    border: 1px solid;
+    width: 30%;
+    flex-direction: column;
+}
+
+.specialDescript{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dreamerImg{
+    display: flex;
+    width: 15em;
+    height: 15em;
+    border: 1px solid;
 }
