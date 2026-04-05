@@ -22,8 +22,8 @@ body{
 
 .tipsyLogo{
     display: flex;
-    width: 14em;
-    height: 9em;
+    width: 14rem;
+    height: 9rem;
 }
 
 
@@ -33,12 +33,15 @@ body{
     border: 1px solid;
     list-style: none;
     height: 10%;
-    padding: 1em;
+    padding: 1rem;
 }
 
 .heroCont{
     display: flex;
     border: 1px solid;
+    max-height: 400px;
+    justify-content: center;
+    gap: 10%;
 }
 
 .tipsyHero{
@@ -69,8 +72,10 @@ body{
 .tipsySpecial{
     display: flex;
     border: 1px solid;
-    width: 30%;
+    width: 50vw;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .specialDescript{
@@ -78,10 +83,37 @@ body{
     flex-direction: column;
     gap: 10px;
 }
+.specialText{
+    width: 100%;
+    align-items: center;
+}
 
 .dreamerImg{
     display: flex;
-    width: 15em;
-    height: 15em;
+    width: 50%;
+    max-width: 100%;
+    height: Auto;
+    object-fit: cover;
+}
+
+.aboutCont{
+    display: flex;
     border: 1px solid;
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    height: 21em;
+    width: 25em;
+}
+
+.aboutGall{
+    width: 30em;
+    border: 1px solid;
+}
+
+.tipsyInside{
+    width: 28.3em;
 }
